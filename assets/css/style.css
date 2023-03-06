@@ -932,19 +932,17 @@ Certification Settings
   padding: 10px;
 }
 .column.credly {
-  float: left;
   width: 50%;
 }
 
-.column.badgr-one {
-  float: middle;
+.column.badgr{
   width: 25%;
 }
 
-.column.badgr-two {
+/*.column.badgr-two {
   float: right;
   width: 25%;
-}
+}*/
 
 .roo:after {
   content: "";
@@ -953,7 +951,7 @@ Certification Settings
 }
 
 @media screen and (max-width: 600px) {
-  .column.credly .column.badgr-one .column.badgr-two {
+  .column.credly .column.badgr {
     width: 100%;
   }
 }
