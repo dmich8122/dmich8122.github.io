@@ -30,7 +30,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body class="bg-image">
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
@@ -44,6 +44,8 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#certs">Certifications</a></li>
+          <li><a class="nav-link scrollto" href="#guides">Guides</a></li>
           <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
           <!-- <li><a class="nav-link scrollto " href="#work">Work</a></li>
           <li><a class="nav-link scrollto " href="#blog">Blog</a></li>
@@ -73,7 +75,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jpg)">
+  <div id="hero" class="hero route">
     <!-- <div class="overlay-itro"></div> -->
     <div class="hero-content display-table">
       <div class="table-cell">
@@ -87,10 +89,10 @@
     </div>
   </div><!-- End Hero Section -->
 
-  <main id="main" class="route bg-image" style="background-image: url(assets/img/hero-bg.jpg)">
+  <main id="main">
     <!-- ======= About Section ======= -->
     <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12">
             <div class="box-shadow-full">
@@ -105,15 +107,15 @@
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info">
                         <p><span class="title-s">Author: </span> <span>Michael Dibaee</span></p>
-                        <p><span class="title-s">Profile: </span> <span> Network and System Administration Student</span></p>
-                        <p><span class="title-s">LinkedIn: </span> <span>https://www.linkedin.com/in/michael-dibaee</span></p>
-                        <p><span class="title-s">Github: </span> <span>https://github.com/dmich8122/Projects</span></p>
+                        <p><span class="title-s">Profile: </span> <span> Network and Systems Administration Student</span></p>
+                        <p><span class="title-s">LinkedIn: </span> <span><a linkedin href="https://www.linkedin.com/in/michael-dibaee-252a94229?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BDrFn%2FwWwTq65c2yd3pIJIA%3D%3D" class="hyperlink-style"> Michael Dibaee LinkedIn</a></span></p>
+                        <p><span class="title-s">Github: </span> <span><a github href="https://github.com/dmich8122/" class="hyperlink-style">My Github</a></span></p>
                       </div>
                     </div>
                   </div>
                   <div class="skill-mf">
                     <p class="title-s">Skill</p>
-                    <span>Linux ( RHEL )</span> <span class="pull-right">90%</span>
+                    <span>Linux ( RHEL, NIS, FreeIPA, Apache, etc. )</span> <span class="pull-right">90%</span>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
@@ -133,25 +135,30 @@
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
+                    <span>Microsoft Products ( Active Directory, Office-365, IIS, System Center, etc )</span> <span class="pull-right">85%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Harware ( Cisco, Juniper, IBM, Dell, etc. )</span> <span class="pull-right">80%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="about-me pt-4 pt-md-0">
                     <div class="title-box-2">
                       <h5 class="title-left">
-                        About Author and Website:
+                        About:
                       </h5>
                     </div>
+                    <h1 class="lead"><strong>About Author: </strong></h1>
                     <p class="lead">
-                    About Author:
                     I'm Michael Dibaee, an Information Technology student studying Routing, Switching, Network Security, Linux Administration, Network/Services Automation, Network Programming, Microsoft Active Directory, and Office-365. For the last four years, I've been experimenting with different services, deployments, and networking within my Home-Lab environment.
                     </p>
+                    <h1 class="lead"><strong>About Website: </strong></h1>
                     <p class="lead">
-                    About Website:
                     This website provides simple guides for complex tasks mostly in the infrastructure as a code model format. Non-routing/switching guides will be provided with a pre-configured vagrant file for the virtual machines' deployment and networking. The vagrant environment will further be set up with provisioning using bash, ansible, chef, etc. The routing/switching guides will be set up in gns3 and are more time-consuming than the rest. All the files/scripts necessary for the guides are provided on my Projects repo in GitHub.
-                    </p>
-                    <p class="lead">
-                    <img src="assets/img/CCNA.jpg" alt="CCNA">  <img src="assets/img/RHEL.jpg" alt="RHEL">  <img src="assets/img/fortinet.jpg" alt="fortinet">  <img src="assets/img/palo.jpg" alt="palo">
                     </p>
                   </div>
                 </div>
@@ -161,6 +168,63 @@
         </div>
       </div>
     </section><!-- End About Section -->
+    <!-- Start Cert Section -->
+    <section id="certs" class="sect-pt4 route">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Certifications
+              </h3>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="box-shadow-full">
+          <div class="roo" >
+            <div class="column credly">
+              <div class="credly-badge" data-iframe-width="150" data-iframe-height="270" data-share-badge-id="76911a1e-5011-46d8-8847-47648d40d375" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+              <div class="credly-badge" data-iframe-width="150" data-iframe-height="270" data-share-badge-id="59256ab5-b293-419d-a46b-055d9588a4c9" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+              <div class="credly-badge" data-iframe-width="150" data-iframe-height="270" data-share-badge-id="48221260-9fef-4ecc-a572-501258afcc10" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+            </div>
+            <div class="column badgr">
+              <blockquote class="badgr-badge" style="font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;"><a href="https://api.ca.badgr.io/public/assertions/DA2kj-6xRoiUGyiP4F9vKA"><img src="https://api.ca.badgr.io/public/assertions/DA2kj-6xRoiUGyiP4F9vKA/image" width="120px" height="120px"></a><p class="badgr-badge-name" style="hyphens: auto; overflow-wrap: break-word; word-wrap: break-word; margin: 0; font-size: 16px; font-weight: 600; font-style: normal; font-stretch: normal; line-height: 1.25; letter-spacing: normal; text-align: left; color: #ffffff;">Palo Alto Cert 2023</p><p class="badgr-badge-date" style="margin: 0; font-size: 12px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #ffffff;"><strong style="font-size: 12px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #ffffff;">Awarded: </strong>Mar. 1, 2023</p><p style="margin: 16px 0; padding: 0;"><a class="badgr-badge-verify" target="_blank" href="https://badgecheck.io?url=https%3A%2F%2Fapi.ca.badgr.io%2Fpublic%2Fassertions%2FDA2kj-6xRoiUGyiP4F9vKA" style="box-sizing: content-box; display: flex; align-items: center; justify-content: center; margin: 0; font-size:14px; font-weight: bold; width: 48px; height: 16px; border-radius: 4px; border: solid 1px rgb(255, 255, 255); text-decoration: none; padding: 6px 16px; margin: 16px 0; color: rgb(255, 255, 255);">VERIFY</a></p><script async="async" src="https://ca.badgr.com/assets/widgets.bundle.js"></script></blockquote>
+            </div>
+            <div class="column badgr">
+              <blockquote class="badgr-badge" style="font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;"><a href="https://api.ca.badgr.io/public/assertions/ompFi9EwRDW8X7nUOWjCsg"><img src="https://api.ca.badgr.io/public/assertions/ompFi9EwRDW8X7nUOWjCsg/image" width="120px" height="120px"></a><p class="badgr-badge-name" style="hyphens: auto; overflow-wrap: break-word; word-wrap: break-word; margin: 0; font-size: 16px; font-weight: 600; font-style: normal; font-stretch: normal; line-height: 1.25; letter-spacing: normal; text-align: left; color: #ffffff;">FortiGate 7.0</p><p class="badgr-badge-date" style="margin: 0; font-size: 12px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #ffffff;"><strong style="font-size: 12px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #ffffff;">Awarded: </strong>Dec. 14, 2022</p><p style="margin: 16px 0; padding: 0;"><a class="badgr-badge-verify" target="_blank" href="https://badgecheck.io?url=https%3A%2F%2Fapi.ca.badgr.io%2Fpublic%2Fassertions%2FompFi9EwRDW8X7nUOWjCsg" style="box-sizing: content-box; display: flex; align-items: center; justify-content: center; margin: 0; font-size:14px; font-weight: bold; width: 48px; height: 16px; border-radius: 4px; border: solid 1px rgb(255, 255, 255); text-decoration: none; padding: 6px 16px; margin: 16px 0; color: rgb(255, 255, 255);">VERIFY</a></p><script async="async" src="https://ca.badgr.com/assets/widgets.bundle.js"></script></blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Cert Sections-->
+    <!-- Start Guide Seciton -->
+    <section id="guides" class="sect-pt4 route">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Guides
+              </h3>
+              <p class="subtitle-a">
+                Simple Guides for Complex Tasks  ||  GitHub link: <a github href="https://github.com/dmich8122/Projects" class="hyperlink-style">Project Repo</a>
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="box-shadow-full">
+          <div class="box-header with-border">
+            <h3 class="mb-0" style="text-align: center;"><i>Coming Soon!</i></h3>
+            <hr>
+            <p id="countdown" class="countdown" style="font-size:25px; text-align: center;"></p>
+          </div><script src="assets/js/countdown.js"></script>
+        </div>
+      </div>
+    </section>
+    <!-- End Guide Seciton -->
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -186,7 +250,7 @@
   </footer><!-- End  Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a  href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -198,7 +262,6 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
